@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tosh Qaychi Qog'oz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+
+    <h1>🪨 Tosh ✂️ Qaychi 📄 Qog'oz</h1>
+
+    <div class="players">
+
+        <div>
+            <h2>Siz</h2>
+            <div id="userChoice">❔</div>
+        </div>
+
+        <div>
+            <h2>Kompyuter</h2>
+            <div id="computerChoice">❔</div>
+        </div>
+
+    </div>
+
+
+    <h2 id="result">Tanlang!</h2>
+
+
+    <div class="buttons">
+
+        <button onclick="play('tosh')">
+            🪨 Tosh
+        </button>
+
+        <button onclick="play('qaychi')">
+            ✂️ Qaychi
+        </button>
+
+        <button onclick="play('qogoz')">
+            📄 Qog'oz
+        </button>
+
+    </div>
+
+
+    <div class="score">
+
+        <h3>
+            Siz:
+            <span id="userScore">0</span>
+        </h3>
+
+        <h3>
+            Kompyuter:
+            <span id="computerScore">0</span>
+        </h3>
+
+    </div>
+
+
+    <button class="restart" onclick="restart()">
+        🔄 Qayta boshlash
+    </button>
+
+
+    <p class="dev">
+        Developer: Ulug'bek.R
+    </p>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
